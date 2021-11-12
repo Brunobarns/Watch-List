@@ -8,7 +8,6 @@
 # db/seeds.rb
 require 'json'
 require 'open-uri'
-require 'byebug'
 
 puts "Cleaning DB"
 Bookmark.destroy_all
